@@ -1,0 +1,21 @@
+.App {
+  padding: 16px;
+}
+
+.App-header {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.App-logo { height: 50px; pointer-events: none; }
+
+.App-link { color: #007bff; text-decoration: none; }
+
+.header-row { display: flex; justify-content: space-between; align-items: center; }
+
+.page-card { background: #fff; padding: 12px; border-radius: 6px; border: 1px solid #eee; }
+
+.form-row { display: block; margin-bottom: 12px; }
+
+.actions-row { display: flex; gap: 8px; flex-wrap: wrap; }
+

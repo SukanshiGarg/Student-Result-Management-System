@@ -1,0 +1,57 @@
+/* Simple, traditional CSS — minimal variables and no CSS variables usage */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111111;
+  padding: 16px;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+h1 { color: #222222; font-size: 1.6rem; margin: 0 0 8px; }
+h2 { color: #222222; margin: 6px 0 12px; }
+
+/* Buttons */
+button {
+  padding: 6px 10px;
+  border: 1px solid #cccccc;
+  background: #f5f5f5;
+  color: #111111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover { background: #eeeeee; }
+button[disabled] { opacity: 0.6; cursor: not-allowed; }
+
+/* Simple ghost/button style */
+.btn-ghost { background: transparent; border: 1px solid #ddd; color: #007bff; }
+
+/* Form controls */
+input, select, textarea {
+  padding: 6px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input:focus, select:focus, textarea:focus { outline: 2px solid #cfeefd; }
+
+label { font-weight: 600; color: #333333; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 8px; border: 1px solid #dddddd; text-align: left; }
+thead th { background: #f9f9f9; font-weight: 700; }
+tbody tr:hover { background: #fbfbfb; }
+
+.controls { margin-bottom: 12px; }
+.muted { color: #666666; }
+.chip { display: inline-block; padding: 4px 8px; border-radius: 999px; background: #f3f3f3; color: #555; font-weight: 600; }
+
+code { font-family: Consolas, 'Courier New', monospace; }
+
