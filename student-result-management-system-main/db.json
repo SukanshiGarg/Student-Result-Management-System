@@ -2,21 +2,21 @@
   "students": [
     {
       "id": 1,
-      "name": "Aayush Rawat",
+      "name": "Sukanshi Garg",
       "section": "A",
       "marks": 92,
       "grade": "A"
     },
     {
       "id": 2,
-      "name": "John Doe",
+      "name": "Pranjali ",
       "section": "B",
       "marks": 78,
       "grade": "B"
     },
     {
       "id": "0e8d",
-      "name": "Aman",
+      "name": "Anantika",
       "section": "D",
       "marks": 90,
       "grade": "A+"
